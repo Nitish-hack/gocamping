@@ -1,0 +1,173 @@
+html {
+    height: 100vh;
+}
+
+
+.navbar::before{
+    background: url('../images/bg1.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    /* bottom: 0; */
+    width: 100%;
+    height: 155%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+#nv::before{
+    background: url('../images/bg1.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    /* bottom: 0; */
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+#nv1::before{
+    background: url('../images/bg1.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    /* bottom: 0; */
+    width: 100%;
+    height: 155%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+#nv2::before{
+    background: url('../images/bg1.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    /* bottom: 0; */
+    width: 100%;
+    height: 200%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+li {
+    font-size: 1.6rem;
+    display: inline-block;
+    margin: 10px 100px;
+}
+
+li:hover {
+    position: relative;
+    top: 10px;
+    /* background-color: aqua; */
+
+}
+
+.navbar {
+    text-align: center;
+    /* background-color: aqua; */
+
+}
+
+a {
+    color: #c1c1c1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.content {
+    position: fixed;
+    right: 300px;
+    width: 30%;
+    ;
+    color: white;
+    ;
+}
+
+#heading {
+    font-family: 'Merienda One', cursive;
+    font-size: 5rem;
+}
+
+#cont {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+    color: beige;
+}
+
+#top{
+    font-family: 'Merienda One', cursive;
+color: white;
+}
+.sites{
+    margin: auto;
+    margin-top: 65px;
+    width: 70%;
+    
+}
+
+.logo_left{
+    padding: 10px;
+    height: 200px;
+    float: left;
+}
+.logo_right{
+    padding: 10px;
+    height: 200px;
+    float: right;
+}
+.about {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+    color: white;
+       
+}
+.midpart{
+    margin-top: 40px;
+    display: flex;
+    
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* align-items: center; */
+ width: 100%; 
+ height: 82vh;  
+    
+}
+.midpart div img{
+height: 185px;
+}
+.aboutcrew{
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin: 5px 25px;
+}
+.member{
+    
+    
+ border: 2px solid white;
+ border-radius: 10px;
+    height: 600px;
+    /* padding: 5px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 300px;
+    align-items: center;
+}
+#hosting{
+    margin-top: 0px;
+   color: wheat;
+   font-family: 'Abril Fatface', cursive;
+   font-size: 5rem;
+   font-weight: bold;
+text-align: center;
+    }
